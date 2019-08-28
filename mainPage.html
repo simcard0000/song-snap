@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="-" />
+    <meta name="description" content="A fun website matching images with songs!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Song+Snap</title>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mainPageStyles.css" />
+    <script src="song+snap.js"></script>
+    <!---add tags for social media, remember to allow cloudflare-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/css/uikit.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit-icons.min.js"></script>
+</head>
+<body>
+    <div class="uk-flex uk-flex-middle uk-text-center uk-flex-column">
+        <h1 id="siteTitle">Song+Snap</h1> 
+        <p>Get a playlist of related songs based on images!</p>
+        <div id="uploadPart" class="js-upload uk-placeholder uk-text-center">
+            <span uk-icon="icon: upload"></span>
+            <span class="uk-text-middle">Upload an image by dragging the file here or by</span>
+            <div uk-form-custom>
+                <input type="file" multiple>
+                <span class="uk-link" id="fileLink">selecting it.</span>
+            </div>
+        </div>
+        <p>Your songs:</p>
+    </div>
+    <button id="creditsButton" class="uk-button" type="button" uk-toggle="target: #creditsPopup">credits</button>
+    <div id="creditsPopup" uk-modal>
+        <div id="creditsPopupForm" class="uk-modal-dialog uk-modal-body">
+            <h2 class="uk-modal-title">CREDITS</h1>
+            <span>Built using</span>
+            <a href="https://getuikit.com/"> UIkit</a>
+            <span> - a front-end framework. Other services used include the </span>
+            <a href="https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/"> Microsoft Azure Computer Vision</a>
+            <span>service for getting tags of objects in images and </span>
+            <a href=https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2> the MusicBrainz XML Web Service</a>
+            <span>for retrieving music metadata.</span>
+        </div>
+    </div>
+</body>
+</html>

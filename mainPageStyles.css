@@ -1,0 +1,23 @@
+body{
+    background-color:black;
+}
+#siteTitle{
+    font-family: 'Fredoka One', cursive;
+    color: #34e5eb;
+    font-size: 300%;
+    background-color: black;
+}
+#creditsButton{
+    color:lightslategray;
+    background-color: black;
+}
+#creditsPopupForm{
+    background-color:darkgray;
+}
+p{
+    line-height: 0.1;
+    color: whitesmoke;
+}
+span, button, p, h2, a{
+    font-family: 'Quicksand', sans-serif;
+}
