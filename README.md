@@ -1,4 +1,5 @@
 ![active development](https://img.shields.io/badge/active%20dev-yes-brightgreen.svg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/simcard0000/song-snap.svg)
 
 # song-snap
 🎵 A fun way to match songs to your images! Upload an image; whatever is identified in it will get paired with relevant songs. 
