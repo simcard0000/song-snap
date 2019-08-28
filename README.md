@@ -11,4 +11,4 @@
 ### Credits
 The fonts used in this project are [Fredoka One](https://fonts.google.com/specimen/Fredoka+One) and [Quicksand](https://fonts.google.com/specimen/Quicksand).
 This project is made in VSCode. (UIkit)[https://getuikit.com/] was used to make the website. The [Microsoft Azure Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/)
-service and the [MusicBrainz XML Web Service](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2) were accessed.
+service and the (MusicBrainz XML Web Service)[https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2] were accessed.
