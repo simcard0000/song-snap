@@ -1,15 +1,13 @@
-body{
+body, #siteTitle, #creditsButton{
     background-color:black;
 }
 #siteTitle{
     font-family: 'Fredoka One', cursive;
     color: #34e5eb;
     font-size: 300%;
-    background-color: black;
 }
 #creditsButton{
     color:lightslategray;
-    background-color: black;
 }
 #creditsPopupForm{
     background-color:darkgray;
