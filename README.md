@@ -6,6 +6,7 @@
 
 ### To-Do:
 - [ ] finish refining website appearance
+- [ ] create a backend for the requests using [Node.js](https://nodejs.org/en/)
 - [ ] finish code for handling image processing
 
 ### Credits
